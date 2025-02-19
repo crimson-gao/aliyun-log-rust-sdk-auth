@@ -1,11 +1,14 @@
 [package]
 name = "aliyun-log-rust-sdk-auth"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Aliyun Log Service"]
 description = "A crate to calculate signature for http request to Aliyun Log Service."
 license = "MIT"
 repository = "https://github.com/crimson-gao/aliyun-log-rust-sdk-auth"
+readme = "README.md"
+keywords = ["aliyun", "sls", "signature", "alibaba cloud"]
+documentation = "https://docs.rs/aliyun-log-rust-sdk-auth"
 
 [dependencies]
 base64 = "0.22.1"

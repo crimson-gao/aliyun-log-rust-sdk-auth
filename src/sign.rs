@@ -28,7 +28,7 @@ use thiserror::Error;
 ///
 /// * `Ok(String)` containing the signature of the request, which has already been added to `headers`, so you don't need to add it again.
 /// The returned result can be used for testing or logging.
-/// * `Err(Box<dyn std::error::Error>)` if the calculation failed.
+/// * `Err(SignatureError)` if the calculation failed.
 ///
 /// # Errors
 ///
