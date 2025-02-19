@@ -52,13 +52,8 @@ use thiserror::Error;
 ///     &mut headers,
 ///     BODY_NONE,
 /// );
-/// match signature_result {
-///     Ok(signature) => {
-///         println!("signature: {}", signature);
-///     }
-///     Err(err) => {
-///         println!("signature error: {}", err);
-///     }
+/// if let Err(err) = signature_result {
+///     println!("signature error: {}", err);
 /// }
 /// ```
 pub fn sign_v1(
@@ -151,7 +146,6 @@ pub fn sign_v1(
         message.as_bytes(),
     ));
     let auth = format!("LOG {}:{}", access_key_id.as_ref(), signature);
-    debug!("signature : {}", auth);
     headers.insert(LOG_AUTHORIZATION, HeaderValue::from_str(&auth)?);
     Ok(auth)
 }
