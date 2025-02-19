@@ -1,0 +1,21 @@
+[package]
+name = "aliyun-log-rust-sdk-auth"
+version = "0.1.0"
+edition = "2024"
+authors = ["Aliyun Log Service"]
+description = "A crate to calculate signature for http request to Aliyun Log Service."
+license = "MIT"
+
+[dependencies]
+base64 = "0.22.1"
+chrono = "0.4.39"
+hmac-sha1 = "0.2.2"
+http = "1.2.0"
+log = "0.4.25"
+md5 = "0.7.0"
+querystring = "1.1.0"
+string-builder = "0.2.0"
+thiserror = "2.0.11"
+
+[dev-dependencies]
+env_logger = "0.11.6"
