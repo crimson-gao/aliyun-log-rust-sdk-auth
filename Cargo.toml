@@ -7,7 +7,7 @@ description = "A crate to calculate signature for http request to Aliyun Log Ser
 license = "MIT"
 repository = "https://github.com/crimson-gao/aliyun-log-rust-sdk-auth"
 readme = "README.md"
-keywords = ["aliyun", "sls", "signature", "alibaba cloud"]
+keywords = ["aliyun", "sls", "signature", "alibabacloud"]
 documentation = "https://docs.rs/aliyun-log-rust-sdk-auth"
 
 [dependencies]
