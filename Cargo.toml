@@ -1,7 +1,7 @@
 [package]
 name = "aliyun-log-rust-sdk-auth"
-version = "0.1.1"
-edition = "2024"
+version = "0.2.0"
+edition = "2021"
 authors = ["Aliyun Log Service"]
 description = "A crate to calculate signature for http request to Aliyun Log Service."
 license = "MIT"
