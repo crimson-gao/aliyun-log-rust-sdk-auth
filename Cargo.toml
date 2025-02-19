@@ -5,6 +5,7 @@ edition = "2024"
 authors = ["Aliyun Log Service"]
 description = "A crate to calculate signature for http request to Aliyun Log Service."
 license = "MIT"
+repository = "https://github.com/crimson-gao/aliyun-log-rust-sdk-auth"
 
 [dependencies]
 base64 = "0.22.1"
