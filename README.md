@@ -25,3 +25,6 @@ if let Err(err) = signature_result {
     println!("signature error: {}", err);
 }
 ```
+
+### Documentation
+See [here](https://docs.rs/aliyun-log-rust-sdk-auth).
